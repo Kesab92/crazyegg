@@ -40,16 +40,32 @@ body {
   font-weight: bold;
   padding: 10px;
 }
+.s-Content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .s-AuthorPosted {
   display: flex;
   gap: 10px;
+  justify-content: flex-start;
 }
 .s-Cat {
   color: #006dd0;
   font-size: 14px;
 }
 .s-Author_image {
-  border-radius: 50px;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+}
+.s-Author__name {
+  font-size: 14px;
+  font-weight: 500;
+}
+.s-PostedDate {
+  font-size: 12px;
+  color: #6d6d6d;
 }
 
 main {
