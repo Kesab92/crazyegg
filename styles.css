@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.s-Navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.s-Category {
+  display: flex;
+  gap: 50px;
+}
+.s-NavigationList {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+.s-NavigationList__item {
+  color: #6d6d6d;
+  background-color: white;
+  border: 1px solid #6d6d6d;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 14px;
+}
+.s-TrialButton {
+  height: 50px;
+  border: 2px solid #006dd0;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #006dd0;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+}
+.s-AuthorPosted {
+  display: flex;
+  gap: 10px;
+}
+.s-Cat {
+  color: #006dd0;
+  font-size: 14px;
+}
+.s-Author_image {
+  border-radius: 50px;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
